@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from vm_management_dev.ext.auth import create_user
+from vm_management_dev.ext.database import db
+from vm_management_dev.models import Product
 
 
 def create_db():

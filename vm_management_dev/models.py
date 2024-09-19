@@ -1,6 +1,6 @@
 from sqlalchemy_serializer import SerializerMixin
 
-from project_name.ext.database import db
+from vm_management_dev.ext.database import db
 
 
 class Product(db.Model, SerializerMixin):

@@ -36,7 +36,7 @@ See also
 - ✅ Code linting using [flake8](https://flake8.pycqa.org/en/latest/)
 - 📊 Code coverage reports using [codecov](https://about.codecov.io/sign-up/)
 - 🛳️ Automatic release to [PyPI](https://pypi.org) using [twine](https://twine.readthedocs.io/en/latest/) and github actions.
-- 🎯 Entry points to execute your program using `python -m <project_name>` or `$ project_name` with basic CLI argument parsing.
+- 🎯 Entry points to execute your program using `python -m <vm_management_dev>` or `$ vm_management_dev` with basic CLI argument parsing.
 - 🔄 Continuous integration using [Github Actions](.github/workflows/) with jobs to lint, test and release your project on Linux, Mac and Windows environments.
 
 > Curious about architectural decisions on this template? read [ABOUT_THIS_TEMPLATE.md](ABOUT_THIS_TEMPLATE.md)  
@@ -45,24 +45,24 @@ See also
 <!--  DELETE THE LINES ABOVE THIS AND WRITE YOUR PROJECT README BELOW -->
 
 ---
-# project_name Flask Application
+# vm_management_dev Flask Application
 
-project_description
+Awesome vm_management_dev created by Kyalo
 
 ## Installation
 
 From source:
 
 ```bash
-git clone https://github.com/author_name/project_urlname project_name
-cd project_name
+git clone https://github.com/Kyalo/VM-management-dev vm_management_dev
+cd vm_management_dev
 make install
 ```
 
 From pypi:
 
 ```bash
-pip install project_name
+pip install vm_management_dev
 ```
 
 ## Executing
@@ -72,13 +72,13 @@ This application has a CLI interface that extends the Flask CLI.
 Just run:
 
 ```bash
-$ project_name
+$ vm_management_dev
 ```
 
 or
 
 ```bash
-$ python -m project_name
+$ python -m vm_management_dev
 ```
 
 To see the help message and usage instructions.
@@ -86,10 +86,10 @@ To see the help message and usage instructions.
 ## First run
 
 ```bash
-project_name create-db   # run once
-project_name populate-db  # run once (optional)
-project_name add-user -u admin -p 1234  # ads a user
-project_name run
+vm_management_dev create-db   # run once
+vm_management_dev populate-db  # run once (optional)
+vm_management_dev add-user -u admin -p 1234  # ads a user
+vm_management_dev run
 ```
 
 Go to:
